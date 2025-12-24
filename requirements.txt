@@ -1,0 +1,30 @@
+# Python Requirements for UDP Flood DDoS Tool
+# Install using: pip install -r requirements.txt
+
+# For 'figlet' command - ASCII art banner generation
+pyfiglet==1.0.2
+
+# For 'toilet' command - Colored ASCII art text
+# Note: 'toilet' is a system command, not a Python package
+# Install on Linux: sudo apt-get install toilet
+# Install on Mac: brew install toilet
+
+# All other modules used are Python built-ins:
+# - socket (UDP socket creation)
+# - sys (system operations)
+# - os (operating system interface, clear screen, system commands)
+# - time (sleep delays, timing)
+# - random (random byte generation)
+# - datetime (timestamp for attack logging)
+
+# Linux (Debian/Ubuntu)
+sudo apt-get install toilet
+
+# Mac
+brew install toilet
+
+# Arch Linux
+sudo pacman -S toilet
+
+#always read this requirements 
+pip install -r requirements.txt
